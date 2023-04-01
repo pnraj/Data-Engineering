@@ -23,7 +23,7 @@ A demo video of the working model is available on LinkedIn.
 
 
 [![Everything Is AWESOME](https://img.youtube.com/vi/StTqXEQ2l-Y/0.jpg)](https://www.youtube.com/watch?v=StTqXEQ2l-Y "Everything Is AWESOME")
-
+https://img.youtube.com/vi/<insert-youtube-video-id-here>/0.jpg --- image of youtube videos
 
 ### Future Improvements
 - Implement automated testing to ensure code quality
