@@ -23,7 +23,7 @@ A demo video of the working model is available on LinkedIn.
   <iframe src="https://www.youtube.com/embed/enMumwvLAug" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 <p align="center">
-[![Everything Is AWESOME](https://img.youtube.com/vi/StTqXEQ2l-Y/0.jpg)](https://www.youtube.com/watch?v=StTqXEQ2l-Y "Everything Is AWESOME")
+[![Everything Is AWESOME](https://github.com/pnraj/Data-Engineering/blob/main/Web_Scraping/star_galaxy_glow_95414_1280x720.jpg)](https://www.youtube.com/watch?v=StTqXEQ2l-Y "Everything Is AWESOME")
 </p>
 [![Alternate Text]({image-url})]({video-url} "Link Title")
 [https://youtu.be/G3Cytlicv8Y](https://youtu.be/G3Cytlicv8Y)
