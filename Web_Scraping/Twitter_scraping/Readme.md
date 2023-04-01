@@ -95,7 +95,7 @@ if df.empty:
     st.subheader(":point_left:.Scraped tweets will visible after entering hashtag or keywords")
 
 else:
-    # BUTTON - To view the DataFrame
+    # Automatically load the DataFrame in Tabular Format
     st.success(f"**:green[{Hashtag} tweets]:thumbsup:**")
     st.write(df)
 
@@ -105,7 +105,7 @@ else:
     b2 , b3, b4 = st.columns([43,40,30]) 
 
 
-    # BUTTON  - To upload the data to mongoDB database
+    # GUI-Button2  - To upload the data to mongoDB database
     if df.empty:
         pass
     else:
@@ -117,7 +117,7 @@ else:
             except:
                 b2.error('Please try again after Submiting the Hashtag or keyword') 
 
-    # BUTTON - To download data as CSV
+    # GUI-Button3 - To download data as CSV
     if df.empty:
         pass
     else:
@@ -140,7 +140,7 @@ else:
                         ):
             b4.success('JSON Downloaded Successfully:thumbsup:')
 ```
-
+  
 ### Future Improvements
 - Expand the project to scrape data from other social media platforms
 - Add authentication to the GUI to ensure data privacy
