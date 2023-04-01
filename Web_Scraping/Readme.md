@@ -19,11 +19,15 @@ This project aims to scrape Twitter data using the snscrape library, store it in
 
 ### Demo
 A demo video of the working model is available on LinkedIn.
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=StTqXEQ2l-Y">
+    <img src="https://img.youtube.com/vi/StTqXEQ2l-Y/0.jpg" alt="Everything Is AWESOME" width="640" height="360">
+  </a>
+  <br>
+  <em>Click to watch the video</em>
+</p>
 
-
-
-[![Everything Is AWESOME](https://img.youtube.com/vi/StTqXEQ2l-Y/0.jpg)](https://www.youtube.com/watch?v=StTqXEQ2l-Y "Everything Is AWESOME")
-https://img.youtube.com/vi/<insert-youtube-video-id-here>/0.jpg --- image of youtube videos
+- https://img.youtube.com/vi/<insert-youtube-video-id-here>/0.jpg --- image of youtube videos
 
 ### Future Improvements
 - Implement automated testing to ensure code quality
@@ -31,4 +35,6 @@ https://img.youtube.com/vi/<insert-youtube-video-id-here>/0.jpg --- image of you
 - Add authentication to the GUI to ensure data privacy
 
 #### The project code follows the PEP 8 coding standards with detailed information on the project's workflow and execution.
+
+
 
