@@ -8,7 +8,7 @@ import streamlit as st
 import pymongo
 
 #page config setting layout = wide or centered
-st.set_page_config(layout="wide", page_title='Get_Tweets')
+st.set_page_config(layout="wide", page_title='Get_Tweets') # layout = wide or centered
 
 st.subheader("**:green[:man-raising-hand: Welcome to Twitter Scraping]**")
 
@@ -84,21 +84,16 @@ if df.empty:
     st.subheader(":point_left:.Scraped tweets will visible after entering hashtag or keywords")
 
 else:
-    # BUTTON - To view the DataFrame
+    st.write("**:green[Choose any options from below]**")
+    # Automatically load the DataFrame in Tabular Format
     st.success(f"**:green[{Hashtag} tweets]:thumbsup:**")
     st.write(df)
-
-
-    st.write("**:green[Choose Any options from below]**")
-
-    b2 , b3, b4 = st.columns([43,40,30]) 
-
-
+    
+# Placing buttons horizontally
+    b2 , b3, b4 = st.columns([43,40,30]) #it's distance is found by trial and error method
+    
     # BUTTON  - To upload the data to mongoDB database
-    if df.empty:
-        pass
-    else:
-        if b2.button("Upload to MongoDB"):
+    if b2.button("Upload to MongoDB"):
             try:
                 col.delete_many({})
                 col.insert_one(scr_data)
@@ -107,10 +102,7 @@ else:
                 b2.error('Please try again after Submiting the Hashtag or keyword') 
 
     # BUTTON - To download data as CSV
-    if df.empty:
-        pass
-    else:
-        if b3.download_button(label= "Download CSV",
+    if b3.download_button(label= "Download CSV",
                             data= csv,
                             file_name= f'{Hashtag}_tweets.csv',
                             mime= 'text/csv'
@@ -119,10 +111,7 @@ else:
 
 
     # BUTTON - To download data as JSON
-    if df.empty:
-        pass
-    else:
-        if b4.download_button(label= "Download JSON",
+    if b4.download_button(label= "Download JSON",
                         data= json,
                         file_name= f'{Hashtag}_tweets.json',
                         mime= 'text/csv'
