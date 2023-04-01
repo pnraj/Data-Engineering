@@ -41,7 +41,7 @@ start_date = st.sidebar.date_input("Start Date (YYYY-MM-DD) : ")
 end_date = st.sidebar.date_input("End Date (YYYY-MM-DD) : ")
 Scraped_date = str(date.today())
 ```
-+ Step 3 `Using snscrape and pandas Scraped Tweets are converted into Dataframe and displayed in tabular format`
++ Step 3 `Using snscrape and pandas, Scraped Tweets are converted into Dataframe and displayed in tabular format`
 ```py
 Total_tweets = []
 
