@@ -22,9 +22,10 @@ A demo video of the working model is available on LinkedIn.
 <figure class="video_container">
   <iframe src="https://www.youtube.com/embed/enMumwvLAug" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
-
-
-
+<p align="center">
+[![Everything Is AWESOME](https://img.youtube.com/vi/StTqXEQ2l-Y/0.jpg)](https://www.youtube.com/watch?v=StTqXEQ2l-Y "Everything Is AWESOME")
+</p>
+//[![Alternate Text]({image-url})]({video-url} "Link Title")//
 
 
 ### Future Improvements
