@@ -1,3 +1,4 @@
+
 # Twitter Scraping 
 This project aims to scrape Twitter data using the snscrape library, store it in **MongoDB**, and display the scraped data in a GUI built with **Streamlit**. The user can enter a **keyword or hashtag** to search, select a date range, and limit the number of tweets to scrape. The scraped data is displayed in the GUI and can be uploaded to the database, downloaded as a **CSV** or **JSON** file.
 
@@ -19,14 +20,9 @@ This project aims to scrape Twitter data using the snscrape library, store it in
 ### Demo
 A demo video of the working model is available on LinkedIn.
 
-<figure class="video_container">
-  <iframe src="https://www.youtube.com/embed/enMumwvLAug" frameborder="0" allowfullscreen="true"> </iframe>
-</figure>
-<p align="center">
-[![Everything Is AWESOME](https://github.com/pnraj/Data-Engineering/blob/main/Web_Scraping/star_galaxy_glow_95414_1280x720.jpg)](https://www.youtube.com/watch?v=StTqXEQ2l-Y "Everything Is AWESOME")
-</p>
-[![Alternate Text]({image-url})]({video-url} "Link Title")
-[https://youtu.be/G3Cytlicv8Y](https://youtu.be/G3Cytlicv8Y)
+
+
+[![Everything Is AWESOME](https://img.youtube.com/vi/StTqXEQ2l-Y/0.jpg)](https://www.youtube.com/watch?v=StTqXEQ2l-Y "Everything Is AWESOME")
 
 
 ### Future Improvements
