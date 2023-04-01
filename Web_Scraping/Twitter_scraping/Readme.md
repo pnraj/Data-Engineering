@@ -31,7 +31,7 @@ import snscrape.modules.twitter as sntwitter
 import streamlit as st
 import pymongo
 ```
-+ Step 2 `Getting input from user`
++ Step 2 `Getting input from user on streamlit sidebar`
 ``` py
 # Keyword/hastags, tweet count and date range(start and end)
 Hashtag = st.sidebar.text_input("Enter the Hashtag or Keyword of Tweets : ")
@@ -77,10 +77,11 @@ df = data_frame(Total_tweets)
 csv = convert_to_csv(df)
 json = convert_to_json(df)
 ```
-+ Step 4 `Pymongo is used to connect to Mongodb Atlas`
++ Step 4 `Pymongo is used to connect to Mongodb Atlas` 
+  + `Note: Change the API into your Mongodb atlas API, to avoid access restriction error`
 ``` py
 # Using MongoDB Atlas as a new database to store date(scraped tweets) in collections(scraped_tweets)
-client = pymongo.MongoClient("mongodb+srv://pnrajk:Nataraj1996@cluster0.rlu7bvd.mongodb.net/?retryWrites=true&w=majority")
+client = pymongo.MongoClient("mongodb+srv://pnrajk1:Nataraj19961@cluster0.rlu7bvd.mongodb.net/?retryWrites=true&w=majority")
 db = client.twitterscraping
 col = db.scraped_tweets
 scr_data = {"Scraped_word" : Hashtag,
