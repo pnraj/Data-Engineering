@@ -2,7 +2,7 @@
 
 - There are different types of database that are used in different usecase
 - I want to create database that can help data analyst or data scientist in terms of better quering 
-- these are suggestion given by CHATGPT:
+- these are suggestion:
 ```
 There are several strategies that can be used to create such a database:
 
